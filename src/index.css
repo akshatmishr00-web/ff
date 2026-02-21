@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #fbbf24;
+  --color-diamond: #38bdf8;
+  --color-ffblue: #1e3a8a;
+  --color-ffdark: #0f172a;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.4);
+  }
+  .diamond-glow {
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.8), 0 0 20px rgba(56, 189, 248, 0.4);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  background-color: #0f172a;
+  color: #fff;
+  user-select: none;
+}
