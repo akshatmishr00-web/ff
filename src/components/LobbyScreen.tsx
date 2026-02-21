@@ -1,5 +1,6 @@
 import React from 'react';
-import { useGameStore, ScreenType } from '../store/useGameStore';
+import { useGameStore } from '../store/useGameStore';
+import type { ScreenType } from '../store/useGameStore';
 import { Store, Crosshair, Users, Gift, ChevronRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
